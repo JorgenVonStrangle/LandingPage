@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+/*
+font-family: 'Dancing Script', cursive;
+*/
+
+body{
+	background-image: url('../img/wood.png');
+
+}
+
+.fondo2 button, .formulario button{
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 30px;
+	color: black;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 15px;
+	box-shadow: 5px 5px 5px black;
+	background-color: rgba(255, 255, 255, 0.7);
+
+}
+.fondo2 button:hover, .formulario button:hover{
+	background-color: rgba(88, 250, 244, 0.7);
+	transition: all .2s ease-in-out;
+	transform: scale(1.5);
+}
+
+.container-fluid{
+	background-image: url('../img/wood.png');
+}
+
+.logo{
+
+	width: 40px;
+}
+
+.fondo2{
+	
+	background-image: url('../img/sirena.png');
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 18%;
+	width: 95%;
+}
+
+.mapa{
+	background-image: url('../img/agua.png');
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	padding-bottom: 60px;
+	width: 95%;
+}
+.navbar{
+	padding: 0;
+	margin-bottom: 0;	
+}
+
+
+h1{
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.row{
+	margin: 30px 0;
+	padding: 0;
+	text-align: justify;
+	font-weight: 700;
+
+}
+
+.parra
+{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.formulario label{
+	/*Para mostrar las etiquetas de los input en modo de lista */
+	display: block;
+	text-align: center;
+	color: black;
+	text-shadow: 5px 5px 5px white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.5rem;
+	font-weight: 700;
+
+}
+
+.formulario input, .formulario textarea{
+	width: 100%;
+	color: black;
+	display: block;
+	padding: 2px;
+	padding-left: 15px;
+	border-radius: 15px;
+	border: 3px dotted black;
+	background-image: url('../img/back.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	
+
+}
+
+.parrag{
+	background-color: transparent;
+}
+
+.forma{
+	text-align: center;
+}
+
+h2{
+	color: cyan;
+	text-shadow: 5px 5px 5px black;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h3{
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+
+}
+
+iframe{
+	margin: 50px 0;
+	box-shadow: 15px 15px 100px cyan;
+	scrollwheel: false;
+
+}
+
+.formulario textarea{
+	width: 100%;
+	height: 406px;
+	position: relative;
+	margin: 0 auto;
+	resize: none;
+}
+
+.formulario button{
+	display: block;
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.formulario{
+	padding-bottom: 8%;
+}
+
+.pie{
+	background-image: url('../img/deep.png');
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	margin: 2% 0;
+}
+.f-left, .f-center, .f-right{
+	color: white;
+	font-weight: 700;
+	height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    bottom: 0;
+
+}
+
+span{
+	font-weight: 700;
+	font-size: 2.5rem;
+}
